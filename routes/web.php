@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('master');
+Route::get('/', [FrontendController::class, 'home'])->name('front.home');
+
+// HOME PAGE ROUTE
+Route::get('/', [FrontendController::class, 'home'])->name('front.home');
+
+// ABOUT US ROUTES
+Route::group(['prefix' => 'about-us'], function () {
+    Route::get('/ceo-message', [FrontendController::class, 'ceoMessage'])->name('aboutUs.ceoMessage');
+    Route::get('/company-profile', [FrontendController::class, 'companyProfile'])->name('aboutUs.companyProfile');
 });
+
+// OUR SERVICES ROUTES
+//Route::group(['prefix' => 'our-services'], function () {
+//    Route::get('/ceo-message', [FrontendController::class, 'ceoMessage'])->name('aboutUs.ceoMessage');
+//    Route::get('/company-profile', [FrontendController::class, 'home'])->name('aboutUs.companyProfile');
+//});
