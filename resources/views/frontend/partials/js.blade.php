@@ -1,10 +1,9 @@
-<!-- Bootstrap JS -->
-<script src="{{ asset('frontend/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
 
-<!--Vendors-->
-<script src="{{ asset('frontend/assets/vendor/aos/aos.js') }}"></script>
-<script src="{{ asset('frontend/assets/vendor/glightbox/js/glightbox.js') }}"></script>
-<script src="{{ asset('frontend/assets/vendor/tiny-slider/tiny-slider.js') }}"></script>
-
-<!--Template Functions-->
-<script src="{{ asset('frontend/assets/js/functions.js') }}"></script>
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>

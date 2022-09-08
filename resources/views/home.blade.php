@@ -72,49 +72,64 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-8 mx-auto">
-                    <div class="our_company text-center">
-                        <h2>Our Company</h2>
+                    <div class="text-center">
+                        <h2 class="text-danger">Our Company</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <img src="{{ asset('frontend/assets/images/01.jpg') }}" class="img-fluid" alt="">
-                        <a class="mt-3 text-center" href="#">JB HALAL FOOD</a>
-                    </div>
+                    <a target="_blank" href="https://jbhalalfood.com/">
+                        <div class="feature-box f-style-2 icon-grad h-100">
+                            <img src="{{ asset('frontend/images/01.jpg') }}" class="img-fluid" alt="">
+                            <p class="mt-3 text-center">JB HALAL
+                                FOOD</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <img src="{{ asset('frontend/assets/images/02.jpg') }}" class="img-fluid" alt="">
-                        <a class="mt-3 text-center" href="#">JBHRA</a>
-                    </div>
+                    <a target="_blank" href="http://jbhra.com/">
+                        <div class="feature-box f-style-2 icon-grad h-100">
+                            <img src="{{ asset('frontend/images/jbhra.jpg') }}" class="img-fluid" alt="">
+                            <p class="mt-3 text-center">JBHRA</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <img src="{{ asset('frontend/assets/images/jbhra.jpg') }}" class="img-fluid" alt="">
-                        <a class="mt-3 text-center" href="#">JBNET TELECOM</a>
-                    </div>
+                    <a target="_blank" href="https://gaijinmobile.com/">
+                        <div class="feature-box f-style-2 icon-grad h-100">
+                            <img src="{{ asset('frontend/images/02.jpg') }}" class="img-fluid" alt="">
+                            <p class="mt-3 text-center">JBNET
+                                TELECOM</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <img src="{{ asset('frontend/assets/images/01.jpg') }}" class="img-fluid" alt="">
-                        <a class="mt-3 text-center" href="#">IKIAGI CORPORATION</a>
-                    </div>
+                    <a target="_blank" href="https://www.ikiagi.com/">
+                        <div class="feature-box f-style-2 icon-grad h-100">
+                            <img src="{{ asset('frontend/images/03.jpg') }}" class="img-fluid" alt="">
+                            <p class="mt-3 text-center">IKIAGI
+                                CORPORATION</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <img src="{{ asset('frontend/assets/images/02.jpg') }}" class="img-fluid" alt="">
-                        <a class="mt-3 text-center" href="#">JBNET TRAVELS</a>
-                    </div>
+                    <a target="_blank" href="">
+                        <div class="feature-box f-style-2 icon-grad h-100">
+                            <img src="{{ asset('frontend/images/04.jpg') }}" class="img-fluid" alt="">
+                            <p class="mt-3 text-center">JBNET TRAVELS</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <img src="{{ asset('frontend/assets/images/jbhra.jpg') }}" class="img-fluid" alt="">
-                        <a class="mt-3 text-center" href="#">JB FASHION</a>
-                    </div>
+                    <a target="" href="">
+                        <div class="feature-box f-style-2 icon-grad h-100">
+                            <img src="{{ asset('frontend/images/05.jpg') }}" class="img-fluid" alt="">
+                            <p class="mt-3 text-center">JB FASHION</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

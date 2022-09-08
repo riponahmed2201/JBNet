@@ -1,74 +1,52 @@
-<header class="header-static navbar-sticky navbar-light">
+<header id="header" class="d-flex align-items-center" style="background-color: #d62227; color: white; font-weight: 600">
+    <div class="container d-flex align-items-center">
 
-    <!-- Navbar top start-->
-    <div class="navbar-top d-none d-lg-block">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <!-- navbar top Left-->
-                <div class="d-flex align-items-center">
-                    <!-- Language -->
-                    <div class="dropdown">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownLanguage"
-                           data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img
-                                class="dropdown-item-icon" src="{{ asset('frontend/assets/images/flags/uk.svg') }}" alt=""> English </a>
-                        <div class="dropdown-menu mt-2 shadow" aria-labelledby="dropdownLanguage">
-                            <span class="dropdown-item-text">Select language</span>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"><img class="dropdown-item-icon"
-                                                                   src="{{ asset('frontend/assets/images/flags/sp.svg') }}" alt=""> Español</a>
-                            <a class="dropdown-item" href="#"><img class="dropdown-item-icon"
-                                                                   src="{{ asset('frontend/assets/images/flags/fr.svg') }}" alt=""> Français</a>
-                            <a class="dropdown-item" href="#"><img class="dropdown-item-icon"
-                                                                   src="{{ asset('frontend/assets/images/flags/gr.svg') }}" alt=""> Deutsch</a>
-                        </div>
-                    </div>
-                    <!-- Top info -->
-                    <ul class="nav list-unstyled ms-3">
-                        <li class="nav-item me-3">
-                            <a class="navbar-link" href="#"><strong>Phone:</strong> (251) 854-6308</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="navbar-link" href="#"><strong>Email:</strong> help@wizixo.com</a>
-                        </li>
-                    </ul>
-                </div>
+        <h1 class="logo me-auto" style="color: white"><a href="#">JBNet Group</a></h1>
 
-                <!-- navbar top Right-->
-                <div class="d-flex align-items-center">
-                    <!-- Top Account -->
-                    <div class="dropdown">
-                        <a class="dropdown-toggle" href="#" role="button" id="dropdownAccount"
-                           data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                                class="ti-user me-2"></i>Account </a>
-                        <div class="dropdown-menu mt-2 shadow" aria-labelledby="dropdownAccount">
-                            <a class="dropdown-item" href="sign-in.html">Log In</a>
-                            <a class="dropdown-item" href="sign-up.html">Register</a>
-                            <a class="dropdown-item" href="#">Settings</a>
-                        </div>
-                    </div>
-                    <!-- top link -->
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="navbar-link mx-3" href="contact.html">Contact</a>
-                        </li>
+        <nav id="navbar" class="navbar">
+            <ul class="text-uppercase">
+                <li><a class="nav-link scrollto active" style="color: white" href="#">Home</a></li>
+                <li class="dropdown"><a style="color: white" href="#"><span>About Us</span> <i
+                            class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">CEO MESSAGE</a></li>
+                        <li><a href="#">COMPANY PROFILE</a></li>
                     </ul>
-                    <!-- top social -->
-                    <ul class="social-icons">
-                        <li class="social-icons-item social-facebook m-0">
-                            <a class="social-icons-link w-auto px-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li class="social-icons-item social-instagram m-0">
-                            <a class="social-icons-link w-auto px-2" href="#"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li class="social-icons-item social-twitter m-0">
-                            <a class="social-icons-link w-auto ps-2" href="#"><i class="fab fa-twitter"></i></a>
-                        </li>
+                </li>
+
+                <li class="dropdown"><a style="color: white" href="#"><span>Our Companies</span> <i
+                            class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">JB HALAL FOOD</a></li>
+                        <li><a href="#">JBHRA</a></li>
+                        <li><a href="#">JBNET TELECOM</a></li>
+                        <li><a href="#">IKIAGI CORPORATION</a></li>
+                        <li><a href="#">JBNET TRAVELS</a></li>
+                        <li><a href="#">JB FASHION</a></li>
                     </ul>
-                </div>
-            </div>
-        </div>
+                </li>
+
+                <li class="dropdown"><a style="color: white" href="#"><span>Our Services</span> <i
+                            class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">Internet Connection</a></li>
+                        <li><a href="#">Halal Food Services</a></li>
+                        <li><a href="#">Corporate Consultancy</a></li>
+                        <li><a href="#">Discount Air Ticket</a></li>
+                        <li><a href="#">Visa Processing</a></li>
+                        <li><a href="#">Send Money</a></li>
+                        <li><a href="#">Translation</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="nav-link scrollto" style="color: white" href="#">Our Product</a></li>
+                <li><a class="nav-link scrollto " style="color: white" href="#">Gallery</a></li>
+                <li><a class="nav-link scrollto " style="color: white" href="#">Blog</a></li>
+                <li><a class="nav-link scrollto " style="color: white" href="#">Notice</a></li>
+                <li><a class="nav-link scrollto " style="color: white" href="#">Contact Us</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
     </div>
-
-    <!-- Navbar top End-->
-
 </header>
