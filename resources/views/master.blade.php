@@ -177,23 +177,30 @@
     </section>
     <!-- End Our Major Business Partners -->
 
-    <!-- ======= Our Gallery ======= -->
+    <!-- ======= Our Major Business Partners ======= -->
     <section id="clients" class="clients">
         <div class="container">
             <div class="section-title">
-                <h2> Gallery</h2>
+                <h2>Gallery</h2>
             </div>
-            <div class="clients-slider">
-                <div class="">
-                    <div class="swiper-slide">
-                        <img style="width: 310px; height: 233px" src="assets/img/opening1.jpg" class="img-fluid" alt="">
-                    </div>
+            <div class="clients-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
+
         </div>
     </section>
-    <!-- End Gallery -->
+    <!-- End Our Major Business Partners -->
+
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -266,7 +273,8 @@
             </div>
 
         </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Contact Section -->
 
 </main><!-- End #main -->
 

@@ -7,3 +7,6 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+
+<script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/owl-carousel/owl.theme.default.min.css"></script>
