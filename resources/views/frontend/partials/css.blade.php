@@ -6,8 +6,8 @@
 <meta content="" name="keywords">
 
 <!-- Favicons -->
-<link href="{{ asset('assets/logo/logo.png') }}" rel="icon">
-<link href="{{ asset('assets/logo/logo.png') }}" rel="apple-touch-icon">
+<link href="assets/logo/logo.png" rel="icon">
+<link href="assets/logo/logo.png" rel="apple-touch-icon">
 
 <!-- Google Fonts -->
 <link
@@ -15,37 +15,12 @@
     rel="stylesheet">
 
 <!-- Vendor CSS Files -->
-<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<link href="{{ asset('assets/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+<link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
 <!-- Template Main CSS File -->
-<link href="assets/css/style.css" rel="stylesheet">
-
-<link href="assets/vendor/owl-carousel/owl.carousel.min.css" rel="stylesheet">
-
-<script>
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: true
-            },
-            600: {
-                items: 3,
-                nav: false
-            },
-            1000: {
-                items: 5,
-                nav: true,
-                loop: false
-            }
-        }
-    })
-</script>
+<link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">

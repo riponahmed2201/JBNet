@@ -1,21 +1,18 @@
-<header id="header" class="d-flex align-items-center" style="background-color: #d62227; color: white; font-weight: 600">
+<header id="header" class="d-flex align-items-center" style="background-color: #d62227; font-weight: 600">
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto" style="color: white"><a href="#">JBNet Group</a></h1>
-
+        <h1 class="logo me-auto"><a href="{{ url('/') }}" style="color: white">JBNet Group</a></h1>
         <nav id="navbar" class="navbar">
             <ul class="text-uppercase">
-                <li><a class="nav-link scrollto active" style="color: white" href="#">Home</a></li>
-                <li class="dropdown"><a style="color: white" href="#"><span>About Us</span> <i
-                            class="bi bi-chevron-down"></i></a>
+                <li><a class="nav-link scrollto active" href="#">Home</a></li>
+                <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="#">CEO MESSAGE</a></li>
                         <li><a href="#">COMPANY PROFILE</a></li>
                     </ul>
                 </li>
 
-                <li class="dropdown"><a style="color: white" href="#"><span>Our Companies</span> <i
-                            class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a href="#"><span>Our Companies</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="#">JB HALAL FOOD</a></li>
                         <li><a href="#">JBHRA</a></li>
@@ -26,8 +23,7 @@
                     </ul>
                 </li>
 
-                <li class="dropdown"><a style="color: white" href="#"><span>Our Services</span> <i
-                            class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a href="#"><span>Our Services</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="#">Internet Connection</a></li>
                         <li><a href="#">Halal Food Services</a></li>
@@ -39,11 +35,11 @@
                     </ul>
                 </li>
 
-                <li><a class="nav-link scrollto" style="color: white" href="#">Our Product</a></li>
-                <li><a class="nav-link scrollto " style="color: white" href="#">Gallery</a></li>
-                <li><a class="nav-link scrollto " style="color: white" href="#">Blog</a></li>
-                <li><a class="nav-link scrollto " style="color: white" href="#">Notice</a></li>
-                <li><a class="nav-link scrollto " style="color: white" href="#">Contact Us</a></li>
+                <li><a class="nav-link scrollto" href="#">Our Product</a></li>
+                <li><a class="nav-link scrollto " href="#">Gallery</a></li>
+                <li><a class="nav-link scrollto " href="#">Blog</a></li>
+                <li><a class="nav-link scrollto " href="#">Notice</a></li>
+                <li><a class="nav-link scrollto " href="#">Contact Us</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
