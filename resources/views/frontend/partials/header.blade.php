@@ -36,10 +36,10 @@
                 </li>
 
                 <li><a class="nav-link scrollto" href="#">Our Product</a></li>
-                <li><a class="nav-link scrollto " href="#">Gallery</a></li>
+                <li><a class="nav-link scrollto " href="{{ route('front.gallery') }}">Gallery</a></li>
                 <li><a class="nav-link scrollto " href="#">Blog</a></li>
                 <li><a class="nav-link scrollto " href="#">Notice</a></li>
-                <li><a class="nav-link scrollto " href="#">Contact Us</a></li>
+                <li><a class="nav-link scrollto " href="{{ route('front.contact_us') }}">Contact Us</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->

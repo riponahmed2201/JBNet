@@ -23,6 +23,9 @@ Route::group(['prefix' => 'about-us'], function () {
     Route::get('/company-profile', [FrontendController::class, 'companyProfile'])->name('aboutUs.companyProfile');
 });
 
+Route::get('contact-us', [FrontendController::class, 'conatactUs'])->name('front.contact_us');
+Route::get('gallery', [FrontendController::class, 'gallery'])->name('front.gallery');
+
 // OUR SERVICES ROUTES
 //Route::group(['prefix' => 'our-services'], function () {
 //    Route::get('/ceo-message', [FrontendController::class, 'ceoMessage'])->name('aboutUs.ceoMessage');
