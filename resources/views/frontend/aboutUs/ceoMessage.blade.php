@@ -17,7 +17,7 @@
                         }
                     </style>
                     <img width="150" height="150" src="{{ asset('frontend/images/shahin.jpg') }}"
-                         class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="">
+                        class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="">
                     <h3><b>CEO MESSAGE</b></h3>
                     <p>
                     </p>

@@ -14,10 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [FrontendController::class, 'home'])->name('front.home');
-
 // HOME PAGE ROUTE
-Route::get('/', [FrontendController::class, 'home'])->name('front.home');
+Route::get('/', [FrontendController::class, 'index'])->name('front.home');
 
 // ABOUT US ROUTES
 Route::group(['prefix' => 'about-us'], function () {

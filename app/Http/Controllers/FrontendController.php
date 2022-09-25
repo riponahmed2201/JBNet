@@ -6,10 +6,11 @@ use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
-    public function home()
+    public function index()
     {
-        return view('master');
+        return view('home');
     }
+
     public function ceoMessage()
     {
         return view('frontend.aboutUs.ceoMessage');

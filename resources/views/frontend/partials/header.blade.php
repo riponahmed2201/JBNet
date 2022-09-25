@@ -1,14 +1,14 @@
-<header id="header" class="d-flex align-items-center" style="background-color: #d62227; font-weight: 600">
+<header id="header" class="d-flex align-items-center" style="height: 56px; background-color: #d62227; font-weight: 600">
     <div class="container d-flex align-items-center">
 
         <h1 class="logo me-auto"><a href="{{ url('/') }}" style="color: white">JBNet Group</a></h1>
         <nav id="navbar" class="navbar">
             <ul class="text-uppercase">
-                <li><a class="nav-link scrollto active" href="#">Home</a></li>
+                <li><a class="nav-link scrollto active" href="{{ url('/') }}">Home</a></li>
                 <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">CEO MESSAGE</a></li>
-                        <li><a href="#">COMPANY PROFILE</a></li>
+                        <li><a href="{{ route('aboutUs.ceoMessage') }}">CEO MESSAGE</a></li>
+                        <li><a href="{{ route('aboutUs.companyProfile') }}">COMPANY PROFILE</a></li>
                     </ul>
                 </li>
 
