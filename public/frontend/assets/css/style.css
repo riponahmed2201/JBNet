@@ -1299,6 +1299,7 @@ progress {
   }
 }
 @media (min-width: 768px) {
+    
   .col-md {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 0%;

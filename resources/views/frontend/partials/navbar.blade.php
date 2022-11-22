@@ -7,7 +7,7 @@
                         <img style="width: 240px; height: 96px;" src="{{ asset('assets/logo/logo.png') }}" alt="Logo">
                     </div>
                 </div>
-                <div class="col-md-6 hide-top-navbar">
+                <div class="col-md-4 hide-top-navbar">
                     <div class="mt-2">
                         <div class="row" style="font-size: 14px;">
                             <p> Call Us: <strong>+81(0)3-6304-0504</strong> </p> <br>
@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 hide-top-navbar">
+                <div class="col-md-5 hide-top-navbar" style="text-align:right;">
                     <div class="mt-4">
                         <div class="">
                             <a style="background-color: #458E3C; color: white; font-size: 13px; border-radius: 3px; padding: 10px"
